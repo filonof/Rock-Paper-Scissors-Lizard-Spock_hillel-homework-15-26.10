@@ -18,6 +18,10 @@ Victories = {
     Choice.Spock: [Choice.Scissors, Choice.Rock],
 }
 
+print('-' * 36)
+print('Rock, Paper, Scissors, Lizard, Spock')
+print('-' * 36)
+
 
 def user_choice():
     choice = [f'{i.name} - {i.value}' for i in Choice]
